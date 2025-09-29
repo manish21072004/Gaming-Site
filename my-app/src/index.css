@@ -1,0 +1,560 @@
+@font-face {
+  font-family: "Ammonite";
+  src: url("./assets/font/Ammonite.otf") format("truetype");
+  style: Regular;
+}
+@font-face {
+  font-family: "KumarOne";
+  src: url("./assets/font/KumarOne-Regular.otf") format("truetype");
+  style: Regular;
+}
+@font-face {
+  font-family: "Kumar One Outline";
+  src: url("./assets/KumarOneOutline-Regular.otf") format("truetype");
+  style: Regular;
+}
+@font-face {
+  font-family: "poppins";
+  src: url("./assets/font/poppins.light-italic.ttf") format("truetype");
+  style: Regular;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.main{
+  width: 100%;
+  height: 100vh;
+  background-image: url(./assets/img.jpg/34e9619dc178859e6fa21f5edf7f3f182be09327.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+      margin-top: -242px;
+}
+
+.header {
+    background-color: #0000003d;
+     padding: 8px;
+    margin-top: -8px;
+    border-bottom-left-radius: 23px;
+    border-bottom-right-radius: 23px;
+       border: 1px solid transparent;
+   background-image: linear-gradient( #222222,#222222),linear-gradient(to right, #00FFE1, #8903FF ,#00FFE1) ;
+  background-origin: border-box;
+  background-clip: padding-box,border-box;
+     
+}
+.header Button{
+      border: 1px solid transparent;
+   background-image: linear-gradient( #0000ff,#0000ff),linear-gradient(to right, #00FFE1, #8903FF ,#00FFE1) ;
+  background-origin: border-box;
+  background-clip: padding-box,border-box;
+}
+a.logo.navbar-brand {
+    color: white;
+    font-family: "Ammonite";
+    font-size: 36px;
+    font-weight: 400;
+}
+a.nav-link {
+    color: white;
+    font-weight: bolder;
+    margin-right: 10px;
+}
+a.nav-link:hover {
+    font-size: 20px;
+    color: white;
+}
+.containt {
+    margin: auto;
+    max-width: 725px;
+    text-align: center;
+    margin-top: 10%;
+}
+.containt h4{
+  font-family: KumarOne;
+  color: white;
+  font-size: 40px;
+      padding-top: 225px;
+}
+.containt p{
+  color: white;
+}
+
+
+/* carousel */
+
+.carow{
+  background-color: #222222;
+  color: white;
+  padding: 20px;
+      border: 1px solid transparent;
+   background-image: linear-gradient( #222222,#222222),linear-gradient(to right, #00FFE1, #8903FF ,#00FFE1) ;
+  background-origin: border-box;
+  background-clip: padding-box,border-box;
+  }
+
+
+/* section-2 */
+
+
+.back{
+  background-color: black;
+  padding-bottom: 90px;
+}
+.heading.col {
+    margin-top: 190px;
+}
+.heading h2{
+  font-family: kumar one;
+  font-size: 30px;
+  color: white;
+  margin-bottom: 30px;
+}
+.heading p{
+  font-size: 15px;
+  color: white;
+}
+.right{
+ font-family: Kumar One Outline;
+}
+.right p{
+  font-family: Arial;
+}
+.back-count{
+  background: linear-gradient(to right, #FF00D0 ,#5E00FF);
+  padding: 30px;
+  border-radius: 20px;
+}
+.inner-back{
+  background-color: #222222;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid transparent;
+   background-image: linear-gradient( #222222,#222222),linear-gradient(to right, #00FFE1, #8903FF ,#00FFE1) ;
+  background-origin: border-box;
+  background-clip: padding-box,border-box;
+}
+.image{
+  margin-top: 190px;
+  margin-left: 60px;
+}
+.image img{
+   width: 100%;
+   border-radius: 30px;
+     border: 1px solid transparent;
+   background-image: linear-gradient( #222222,#222222),linear-gradient(to right, #00FFE1, #8903FF ,#00FFE1) ;
+  background-origin: border-box;
+  background-clip: padding-box,border-box;
+}
+.image p{
+  color: white;
+  font-weight: bold;
+}
+
+
+
+/* section3 */
+
+.sec-3{
+   background-color: black;
+   padding-bottom: 100px;
+}
+.top-right h2{
+  color: white;
+  font-family: kumar One;
+  font-size: 25px;
+}
+
+.btn Button{
+  
+  border-radius: 18px;
+}
+.sec-3-image{
+  border: 1px solid transparent;
+   background-image: linear-gradient( #000000,#000000),linear-gradient(to right, #00FFE1, #8903FF ,#00FFE1) ;
+  background-origin: border-box;
+  background-clip: padding-box,border-box;
+  position: relative;
+}
+.sec-3-image img{
+  width: 100%;
+}
+.sec-3-image-bottom{
+  padding: 20px;
+  text-align: center;
+    border: 1px solid transparent;
+   background-image: linear-gradient( #000000,#000000),linear-gradient(to right, #00FFE1, #8903FF ,#00FFE1) ;
+  background-origin: border-box;
+  background-clip: padding-box,border-box;
+}
+.sec-3-image-bottom span{
+  color: white;
+  font-weight: bold;
+}
+.sec-3-image-bottom img{
+  margin-right: 15px;
+}
+.section-3-hov {
+    position: absolute;
+    color: white;
+    background: #222222;
+    padding: 20px 35px;
+    border-radius: 20px;
+    top: 32%;
+    left: 28%;
+    background-image: linear-gradient(#222222,#222222),linear-gradient(to right, #00FFE1, #8903FF ,#00FFE1);
+    background-clip: padding-box,border-box;
+    background-origin: border-box;
+    border: 1px solid transparent;
+    display: none;
+}
+.sec-3-image:hover .please-blur{
+  opacity: 25%;
+}
+.sec-3-image:hover .section-3-hov{
+  display: block;
+}
+
+
+/* section-4  */
+
+/* .sec-4{
+   background-image: url(./assets/img.jpg/13bf71c888c50787c81b2548ab311fae73765099.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; 
+} */
+.fourth-sec{
+  width: 100%;
+  background-image: url("./assets/img.jpg/13bf71c888c50787c81b2548ab311fae73765099.jpg");
+  padding-top: 69px;
+  padding-bottom: 58px;
+    display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+      border-bottom: 2px solid #00FFE1;
+      height: 100vh;
+}
+.fourth-main{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+    max-height: 630px;   
+  overflow-y: auto;   
+  padding: 16px;
+  scrollbar-width: none;       
+  -ms-overflow-style: none; 
+
+}
+.fourth-sec .col:first-child::-webkit-scrollbar {
+  display: none;               
+}
+.fourth-sec .col:first-child {  
+  max-height: 80vh;  
+  overflow-y: auto;
+  padding-right: 10px;  
+}
+.fourth-main::-webkit-scrollbar {
+    display: none; 
+}
+
+.line-image img {
+    width: 100%;
+    margin-top: 29px;
+}
+.game-content h2 {
+    color: white;
+    font-family: 'kumar one';
+    margin-top: 20px;
+        font-size: 25px;
+}
+.game-content p {
+    color: white;
+    font-size: 10px;
+}
+
+.fourth-right {
+    color: white;
+    margin-top: 91px;
+}
+.fourth-right h2 {
+    font-family: 'kumar one';
+    font-size: 25px;
+}
+.fourth-right p {
+    font-size: 12px;
+}
+button.learn-btn {
+    padding: 9px;
+    border-radius: 28px;
+    color: white;
+    background-color: #0000ff;
+}
+
+
+
+
+/* section-5 */
+
+.sec-5{
+  background-color: #000000;
+  padding-bottom: 40px;
+      /* margin-top: -90px; */
+
+}
+.sec-5-main{
+ text-align: center;
+}
+.sec-5-image{
+  background-image: url(./assets/img.jpg/image.png);
+}
+.sec-5-containt p{
+  color: white;
+  font-size: 15px;
+  text-align: start;
+}
+.sec-5-containt{
+  margin-top: 10px;
+}
+
+
+/* section 6 */
+
+.sec-6 {
+  background-color: #000000;
+  padding-bottom: 50px;
+}
+
+.sec-6-heading h4 {
+  color: white;
+  font-family: kumar One;
+  font-size: 25px;
+}
+
+.first-image {
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  background-image: linear-gradient(#000000, #000000),
+linear-gradient(to right, #00FFE1, #8903FF, #00FFE1);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  /* margin: 20px; */
+}
+
+.first-image img {
+  margin-top: 50px;
+  max-width: 100%;
+}
+
+.image-containt {
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.first-image:hover {
+  background: linear-gradient(to right, rgb(255, 0, 208), rgb(94, 0,255));
+}
+.slick-slide img {
+    display: block;
+    margin-left: 133px;
+}
+
+
+/* section 7 */
+
+.sec-7{
+   background-image: url(./assets/img.jpg/99b764575eabbfe346bdf6ca11aa007cd3253154.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 70px;
+}
+.sec-7-heading{
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+.sec-7-heading h4{
+  font-family: kumar one;
+  margin-bottom: 20px;
+}
+.sec-7-heading p{
+  font-size: 15px;
+}
+
+.sec-7-image img{
+  border-radius: 30px;
+     border: 1px solid transparent;
+   background-image: linear-gradient( #000000,#000000),linear-gradient(to right, #00FFE1, #8903FF ,#00FFE1) ;
+  background-origin: border-box;
+  background-clip: padding-box,border-box;
+}
+.sec-7-image{
+  position: relative;
+}
+.sec-7-image-containt {
+    position: absolute;
+    bottom: 11px;
+    margin-left: 53px;
+    color: white;
+}
+.sec-7-image-containt h6{
+  font-family: poppins ;
+}
+.sec-7-image-containt p{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+
+/* section-8 */
+
+.sec-8{
+  background-color: #000000;
+   font-family: kumar one;
+   font-size: 30px;
+}
+.sec-8-heading {
+    margin-top: 50px;
+}
+.sec-8-heading h4{
+  color: white;
+}
+.sec-8-bot p{
+  font-family: Arial;
+  color: white;
+  font-size: 14px;
+}
+.sec-8-image{
+  width: 85%;
+}
+
+.sec-8-image img{
+  width: 85%;
+  border-radius: 30px;
+      margin-top: 50px;
+        border: 1px solid transparent;
+   background-image: linear-gradient( #000000,#000000),linear-gradient(to right, #00FFE1, #8903FF ,#00FFE1) ;
+  background-origin: border-box;
+  background-clip: padding-box,border-box;
+ 
+}
+.sec-8-bot{
+  margin-top: 10%;
+  border-radius: 30px;
+     border: 1px solid transparent;
+   background-image: linear-gradient( #000000,#000000),linear-gradient(to right, #00FFE1, #8903FF ,#00FFE1) ;
+  background-origin: border-box;
+  background-clip: padding-box,border-box;
+  padding: 20px;
+  margin-right: -45px;
+}
+.sec-8-bot h6{
+  color: white;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.sec-8-bot span{
+  color: white;
+  font-family: Arial;
+  font-size: 15px;
+  margin-top: -10px;
+}
+.star{
+  align-items: center;
+}
+.rating{
+  margin-left: 30%;
+}
+
+
+/* footer */
+.footer-back{
+  background-color: #000000;
+  padding-top: 30px;
+}
+.footer {
+    background-image: url("/src/assets/img.jpg/Footer.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 26px;
+    padding-bottom: 20px;
+    padding-top: 60px;
+}
+.footer-heading {
+    color: white;
+    margin-top: 59px;
+    margin-left: 84px;
+}
+.footer-heading p{
+  font-size: 15px;
+  font-family: Arial;
+}
+.footer-heading h2{
+  margin-bottom: 10px;
+  font-family: Ammonite;
+  font-size: 35px;
+}
+
+.footer-heading h6{
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+}
+.footer-heading span img{
+  margin-right: 10px;
+}
+
+.footer-middle {
+    color: white;
+    margin-top: 64px;
+    margin-left: 20%;
+}
+.footer-middle h2{
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.footer-middle ul li{
+  font-family: Arial;
+  font-size: 20px;
+}
+
+.footer-left {
+    color: white;
+    margin-top: 64px;
+    margin-right: 87px;
+}
+.footer-left h3{
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+.footer-left p{
+  font-size: 15px;
+  font-family: Arial;
+}
+.footer-left span{
+  font-family: Arial;
+  font-size: 25px;
+}
+
+
+
+
+
+
+
