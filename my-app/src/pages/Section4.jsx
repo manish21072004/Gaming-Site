@@ -7,7 +7,7 @@ function Scroll() {
     <div className="fourth-sec">
     <Container>
         <Row>
-            <Col>
+            <Col lg={6} md={12} >
              <div className="fourth-main">
                 <div className="box-image">
                 <img src="src\assets\img.jpg\Frame 1320 (1).png" alt="" />
@@ -64,7 +64,7 @@ function Scroll() {
                 </div>
              </div>
             </Col>
-            <Col>
+            <Col  lg={6} md={12}>
             <div className="fourth-right">
                 <h2>Key Features</h2>
                 <p>We are ready to deliver your vision across multiple platforms, mobile, or desktop. Games are the language of the 21st century and we can help you harness their unique power.

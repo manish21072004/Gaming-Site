@@ -32,13 +32,13 @@ function Section8() {
                                         </Col>
                                         <Col>
                                             <div className='rating'>
-                                                <img src= "src\assets\img.jpg\Star 1.png" alt="star" />
-                                                 <img src= "src\assets\img.jpg\Star 1.png" alt="star" />
-                                                 <img src= "src\assets\img.jpg\Star 1.png" alt="star" />
-                                                 <img src= "src\assets\img.jpg\Star 1.png" alt="star" />
-                                                 <img src= "src\assets\img.jpg\Star 1.png" alt="star" />
-                                                 <img src= "src\assets\img.jpg\Star 1.png" alt="star" />
-                                                 <img src= "src\assets\img.jpg\Star 1.png" alt="star" />
+                                                <img  className= "star-blue" src= "src\assets\img.jpg\Star 1.png" alt="star" />
+                                                 <img className= "star-blue" src= "src\assets\img.jpg\Star 1.png" alt="star" />
+                                                 <img className= "star-blue" src= "src\assets\img.jpg\Star 1.png" alt="star" />
+                                                 <img className= "star-blue" src= "src\assets\img.jpg\Star 1.png" alt="star" />
+                                                 <img className= "star-blue" src= "src\assets\img.jpg\Star 1.png" alt="star" />
+                                                 <img className= "star-blue" src= "src\assets\img.jpg\Star 1.png" alt="star" />
+                                                 <img className= "star-blue" src= "src\assets\img.jpg\Star 1.png" alt="star" />
                                             </div>
                                         </Col>
                                     </Row>

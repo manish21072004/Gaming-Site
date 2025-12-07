@@ -20,6 +20,10 @@ function Porfolio2() {
       {
         breakpoint: 576, // mobile
         settings: { slidesToShow: 1 }
+      },
+       {
+        breakpoint: 480, // mobile
+        settings: { slidesToShow: 1 }
       }
     ]
   };
@@ -36,12 +40,12 @@ function Porfolio2() {
     <section className="sec-6">
       <Container>
         <Row className="align-items-center mb-4">
-          <Col md={8}>
+          <Col lg={8} md={6}>
             <div className="sec-6-heading">
               <h4>Meet our developers</h4>
             </div>
           </Col>
-          <Col md={4} className="d-flex justify-content-end">
+          <Col lg={4} md={6} className= "portfolio-button">
             <Button>See All</Button>
           </Col>
         </Row>

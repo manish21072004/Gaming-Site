@@ -41,7 +41,8 @@ function AboutUs() {
     <section className="back">
     <Container >
     <Row>
-    <Col className="heading">
+      <Col lg={6} md={12}>
+    <div className="heading">
     <h2>
     Parchis Club Wants New Members
     </h2>
@@ -51,18 +52,19 @@ function AboutUs() {
       <div className="back-count">
         <div className="inner-back">
       <Row >
-        <Col className="right"><Counter target={4} duration={2000} /> 
+        <Col className="right" ><Counter target={4} duration={2000} /> 
         <p>Leagues</p></Col>
         <Col className="right"><Counter target={320} duration={2000} suffix=" H" /> 
         <p>Total Streams</p></Col>
-        <Col className="right"><Counter target={64} duration={2000} suffix=" k" /> 
+        <Col className="right" ><Counter target={64} duration={2000} suffix=" k" /> 
         <p>Awarded</p></Col>
       </Row>
       </div>
       </div>
     </div>
+    </div>
     </Col>
-    <Col>
+    <Col lg={6} md={12}>
     <div className="image">
       {/* <Player/> */}
 
@@ -96,10 +98,10 @@ function AboutUs() {
 
       <p>Introducing Aquatik Esports | Now Recruiting</p>
       <Row >
-        <Col md={6}>
+        <Col lg={6}  md={12}>
           <h5 style={{color:"white", fontSize:"15px"}}> <img style={{width:"20px"}} src="src\assets\img.jpg\bx_bxs-check-circle.png" alt="" /> Lorem Ipsum is simply</h5>
         </Col>
-        <Col md={6}>
+        <Col lg={6}  md={12}>
             <h5 style={{color:"white", fontSize:"15px"}}> <img style={{width:"20px"}} src="src\assets\img.jpg\bx_bxs-check-circle.png" alt="" /> Lorem Ipsum is simply</h5>
         </Col>
       </Row>
@@ -108,6 +110,7 @@ function AboutUs() {
     </Row>      
     </Container>
     </section>
+    
     </>
   );
 }

@@ -17,7 +17,7 @@ function News() {
         </div>
 
         <Row>
-            <Col md={4}>
+            <Col md={12} lg={4}>
                <div className='sec-7-image'>
                 <img width="100%"  src="src\assets\img.jpg\52b04ecc24d6542bff26811155cfc69511e6d3c6.png" alt="" />
                 <div className='sec-7-image-containt'>
@@ -28,7 +28,7 @@ function News() {
                </div>
             </Col>
 
-            <Col md={4}>
+            <Col md={12} lg={4}>
                <div className='sec-7-image'>
                 <img width="100%"  src="src\assets\img.jpg\1b693ba6b8f24cac4dd28234eb17a5b6c1221011.png" alt="" />
                 <div className='sec-7-image-containt'>
@@ -39,7 +39,7 @@ function News() {
                </div>
             </Col>
 
-            <Col md={4}>
+            <Col md={12} lg={4}>
                <div className='sec-7-image'>
                 <img width="100%" src="src\assets\img.jpg\e7895f7055e46df661aec4f8dd7cc0cd80bf431c.png" alt="" />
                 <div className='sec-7-image-containt'>

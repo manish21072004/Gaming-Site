@@ -8,19 +8,19 @@ function Section3() {
    <section className='sec-3 d-flex justify-content-between'>
     <Container>
         <Row>
-            <Col md={8}>
+            <Col lg={8} md={6}>
             <div className='top-right'>
                 <h2>Currently Trending Games</h2>
             </div>
             </Col>
-             <Col md={4}>
+             <Col lg={4} md={6}>
              <div className='btn d-flex justify-content-end'>
              <Button variant="primary">Primary</Button>
              </div>
             </Col>
         </Row>
         <Row>
-            <Col md={3}>
+            <Col lg={3} md={12}>
              <div className='sec-3-image'>
                 <img className='please-blur' src="src\assets\img.jpg\Rectangle 23.png" alt="" />
                 <div className='section-3-hov'>
@@ -33,7 +33,7 @@ function Section3() {
              </div>
             </Col>
 
-            <Col md={3}>
+            <Col lg={3} md={12}>
              <div className='sec-3-image'>
                 <img className='please-blur' src="src\assets\img.jpg\Rectangle 24.png" alt="" />
                 <div className='section-3-hov'>
@@ -46,7 +46,7 @@ function Section3() {
              </div>
             </Col>
 
-            <Col md={3}>
+            <Col lg={3} md={12}>
              <div className='sec-3-image'>
                 <img className='please-blur' src="src\assets\img.jpg\Rectangle 25.png" alt="" />
                 <div className='section-3-hov'>
@@ -59,7 +59,7 @@ function Section3() {
              </div>
             </Col>
 
-            <Col md={3}>
+            <Col lg={3} md={12}>
              <div className='sec-3-image'>
                 <img className='please-blur' src="src\assets\img.jpg\Rectangle 26.png" alt="" />
                 <div className='section-3-hov'>

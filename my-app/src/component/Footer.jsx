@@ -8,7 +8,7 @@ function Footer() {
                                             <Container>
                                           
                                                 <Row>
-                                                    <Col>
+                                                    <Col lg={4} md={12}>
                                                     <div className='footer-heading'>
                                                         <h2>parchis club</h2>
                                                         <p>It is very important for the customer to be aware of the fact
@@ -25,7 +25,7 @@ function Footer() {
                     
                                                     </div>
                                                     </Col>
-                                                    <Col>
+                                                    <Col lg={4} md={12}>
                                                         <div className='footer-middle'>
                                                           <h2>Quick Links</h2>
                                                           <ul>
@@ -38,7 +38,7 @@ function Footer() {
                                                         </div>
                                                       
                                                     </Col>
-                                                    <Col>
+                                                    <Col lg={4} md={12}>
                                                     <div className='footer-left'>
                                                     <h3>Contact Info</h3>
                                                     <p> <img src="src\assets\img.jpg\Container.png" alt="" />1234, ABC Apartments, XYZ Street,

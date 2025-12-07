@@ -19,13 +19,13 @@ function Section5() {
                         />
                     </div>
                     <Row>
-                        <Col>
+                        <Col lg={6} md={12}>
                             <div className='sec-5-containt'>
                                 <p>We are ready to deliver your vision across multiple platforms, mobile, or desktop. Games are the language of the 21st century and we can help you harness their unique power.
                                     Games are a language of storytelling. We’re looking for games that develop and expand this language.</p>
                             </div>
                         </Col>
-                        <Col >
+                        <Col lg={6} md={12} >
                             <div className='sec-5-containt'>
                                 <p>We are ready to deliver your vision across multiple platforms, mobile, or desktop. Games are the language of the 21st century and we can help you harness their unique power.
                                     Games are a language of storytelling. We’re looking for games that develop and expand this language.</p>
