@@ -5,6 +5,7 @@ import Marquee from "react-fast-marquee";
 
 
 
+
 function Banner({title,discription,primaryBtnText,secondaryBtn }) {
   return (
     <>
