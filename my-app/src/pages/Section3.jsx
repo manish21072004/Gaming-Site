@@ -1,6 +1,12 @@
 import Button from 'react-bootstrap/Button';   // ✅ correct import
 import Container from 'react-bootstrap/Container';
 import { Col, Row } from "react-bootstrap";
+import rect23 from "../assets/img.jpg/Rectangle 23.png";
+import rect24 from "../assets/img.jpg/Rectangle 24.png";
+import rect25 from "../assets/img.jpg/Rectangle 25.png";
+import rect26 from "../assets/img.jpg/Rectangle 26.png";
+import fireIcon from "../assets/img.jpg/fire 1.png";
+
 
 function Section3() {
   return (
@@ -22,52 +28,52 @@ function Section3() {
         <Row>
             <Col lg={3} md={12}>
              <div className='sec-3-image'>
-                <img className='please-blur' src="src\assets\img.jpg\Rectangle 23.png" alt="" />
+                <img className='please-blur' src={rect23} alt="" />
                 <div className='section-3-hov'>
                   <h2>40 K</h2><span>Awarded</span>
               
                 </div>
              <div className='sec-3-image-bottom'>
-               <span><img style={{width:"15px"}} src="src\assets\img.jpg\fire 1.png" alt="" />40 Followers</span>
+               <span><img style={{width:"15px"}} src={fireIcon} alt="" />40 Followers</span>
              </div>
              </div>
             </Col>
 
             <Col lg={3} md={12}>
              <div className='sec-3-image'>
-                <img className='please-blur' src="src\assets\img.jpg\Rectangle 24.png" alt="" />
+                <img className='please-blur' src={rect24} alt="" />
                 <div className='section-3-hov'>
                   <h2>40 K</h2><span>Awarded</span>
               
                 </div>
              <div className='sec-3-image-bottom'>
-               <span><img className='please-blur' style={{width:"15px"}}src="src\assets\img.jpg\fire 1.png" alt="" />40 Followers</span>
+               <span><img className='please-blur' style={{width:"15px"}}src={fireIcon} alt="" />40 Followers</span>
              </div>
              </div>
             </Col>
 
             <Col lg={3} md={12}>
              <div className='sec-3-image'>
-                <img className='please-blur' src="src\assets\img.jpg\Rectangle 25.png" alt="" />
+                <img className='please-blur' src={rect25} alt="" />
                 <div className='section-3-hov'>
                   <h2>40 K</h2><span>Awarded</span>
               
                 </div>
              <div className='sec-3-image-bottom'>
-               <span><img style={{width:"15px"}}src="src\assets\img.jpg\fire 1.png" alt="" />40 Followers</span>
+               <span><img style={{width:"15px"}}src={fireIcon} alt="" />40 Followers</span>
              </div>
              </div>
             </Col>
 
             <Col lg={3} md={12}>
              <div className='sec-3-image'>
-                <img className='please-blur' src="src\assets\img.jpg\Rectangle 26.png" alt="" />
+                <img className='please-blur' src={rect26} alt="" />
                 <div className='section-3-hov'>
                   <h2>40 K</h2><span>Awarded</span>
               
                 </div>
              <div className='sec-3-image-bottom'>
-               <span><img style={{width:"15px"}} src="src\assets\img.jpg\fire 1.png" alt="" />40 Followers</span>
+               <span><img style={{width:"15px"}} src={fireIcon} alt="" />40 Followers</span>
              </div>
              </div>
             </Col>

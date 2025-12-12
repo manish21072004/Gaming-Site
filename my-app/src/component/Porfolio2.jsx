@@ -2,6 +2,9 @@ import React from 'react';
 import { Container, Row, Col, Button } from "react-bootstrap";
 import Slider from "react-slick";
 // import Banner from './Banner';
+import portfolio1 from "../assets/img.jpg/Ellipse 1.png";
+import portfolio2 from "../assets/img.jpg/image (1).png";
+
 
 function Porfolio2() {
   const settings = {
@@ -29,10 +32,10 @@ function Porfolio2() {
   };
 
   const developers = [
-    { img: "src/assets/img.jpg/Ellipse 1.png", name: "Martin Danelio", role: "Founder" },
-    { img: "src/assets/img.jpg/image (1).png", name: "Anna Robert", role: "Co-Founder" },
-    { img: "src/assets/img.jpg/Ellipse 1.png", name: "James Smith", role: "Designer" },
-    { img: "src/assets/img.jpg/image (1).png", name: "Sophia Lee", role: "Developer" }
+    { img: {portfolio2}, name: "Martin Danelio", role: "Founder" },
+    { img: {portfolio1}, name: "Anna Robert", role: "Co-Founder" },
+    { img: {portfolio2}, name: "James Smith", role: "Designer" },
+    { img: {portfolio1}, name: "Sophia Lee", role: "Developer" }
   ];
 
   return (

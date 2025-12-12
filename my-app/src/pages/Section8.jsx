@@ -3,6 +3,9 @@ import React from 'react'
 
 import Container from 'react-bootstrap/Container';
 import { Row, Col,  } from "react-bootstrap";
+import starImg from "../assets/img.jpg/Star 1.png";
+import mainImg from "../assets/img.jpg/09411e233057c58b7faa7392398dac73ba4cab2b.jpg";
+
 
 
 
@@ -32,13 +35,13 @@ function Section8() {
                                         </Col>
                                         <Col>
                                             <div className='rating'>
-                                                <img  className= "star-blue" src= "src\assets\img.jpg\Star 1.png" alt="star" />
-                                                 <img className= "star-blue" src= "src\assets\img.jpg\Star 1.png" alt="star" />
-                                                 <img className= "star-blue" src= "src\assets\img.jpg\Star 1.png" alt="star" />
-                                                 <img className= "star-blue" src= "src\assets\img.jpg\Star 1.png" alt="star" />
-                                                 <img className= "star-blue" src= "src\assets\img.jpg\Star 1.png" alt="star" />
-                                                 <img className= "star-blue" src= "src\assets\img.jpg\Star 1.png" alt="star" />
-                                                 <img className= "star-blue" src= "src\assets\img.jpg\Star 1.png" alt="star" />
+                                                <img  className= "star-blue" src= {starImg } alt="star" />
+                                                 <img className= "star-blue" src= {starImg } alt="star" />
+                                                 <img className= "star-blue" src= {starImg } alt="star" />
+                                                 <img className= "star-blue" src= {starImg } alt="star" />
+                                                 <img className= "star-blue" src= {starImg } alt="star" />
+                                                 <img className= "star-blue" src= {starImg } alt="star" />
+                                                 <img className= "star-blue" src= {starImg } alt="star" />
                                             </div>
                                         </Col>
                                     </Row>
@@ -46,7 +49,7 @@ function Section8() {
                             </Col>
                             <Col md={6}>
                                 <div className='sec-8-image'>
-                                    <img src="src\assets\img.jpg\09411e233057c58b7faa7392398dac73ba4cab2b.jpg" alt="main" />
+                                    <img src={mainImg} alt="main" />
                                 </div>
                             </Col>
                         </Row>

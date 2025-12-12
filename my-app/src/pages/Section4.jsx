@@ -1,6 +1,9 @@
 import React from 'react'
 import {Row, Col} from "react-bootstrap"
 import Container from "react-bootstrap/esm/Container";
+import frameImg from "../assets/img.jpg/Frame 1320 (1).png";
+import lineImg from "../assets/images/Line 1.png";
+
 
 function Scroll() {
   return (
@@ -10,10 +13,10 @@ function Scroll() {
             <Col lg={6} md={12} >
              <div className="fourth-main">
                 <div className="box-image">
-                <img src="src\assets\img.jpg\Frame 1320 (1).png" alt="" />
+                <img src={frameImg} alt="" />
                 </div>
                 <div className="line-image">
-                    <img src="\src\assets\images\Line 1.png" alt="" />
+                    <img src={lineImg} alt="" />
                     <div className="game-content">
                         <h2>Game Development</h2>
                         <p>Our works have been internationally recognized for their design, stories and art direction. Together, we can transform your ideas into captivating games, on desktop, mobile or console.</p>
@@ -24,10 +27,10 @@ function Scroll() {
 
               <div className="fourth-main">
                 <div className="box-image">
-                <img src="src\assets\img.jpg\Frame 1320 (1).png" alt="" />
+                <img src={frameImg} alt="" />
                 </div>
                 <div className="line-image">
-                    <img src="\src\assets\images\Line 1.png" alt="" />
+                    <img src={lineImg} alt="" />
                     <div className="game-content">
                         <h2>Game Development</h2>
                         <p>We have long experience in creating educational and serious games with a wide range of topics, from history to ecology.</p>
@@ -38,10 +41,10 @@ function Scroll() {
 
               <div className="fourth-main">
                 <div className="box-image">
-                <img src="src\assets\img.jpg\Frame 1320 (1).png" alt="" />
+                <img src={frameImg} alt="" />
                 </div>
                 <div className="line-image">
-                    <img src="\src\assets\images\Line 1.png" alt="" />
+                    <img src={lineImg} alt="" />
                     <div className="game-content">
                         <h2>Game Development</h2>
                         <p>Our works have been internationally recognized for their design, stories and art direction. Together, we can transform your ideas into captivating games, on desktop, mobile or console.</p>
@@ -52,10 +55,10 @@ function Scroll() {
 
               <div className="fourth-main">
                 <div className="box-image">
-                <img src="src\assets\img.jpg\Frame 1320 (1).png" alt="" />
+                <img src={frameImg} alt="" />
                 </div>
                 <div className="line-image">
-                    <img src="\src\assets\images\Line 1.png" alt="" />
+                    <img src={lineImg} alt="" />
                     <div className="game-content">
                         <h2>Game Development</h2>
                         <p>Our works have been internationally recognized for their design, stories and art direction. Together, we can transform your ideas into captivating games, on desktop, mobile or console.</p>

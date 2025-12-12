@@ -4,6 +4,8 @@ import { Col, Row } from "react-bootstrap";
 // import { useState}  from "react";
 import Nav from "react-bootstrap/Nav";
 // import Player from "./Reactplayer";
+import check1 from "../assets/img.jpg/bx_bxs-check-circle.png"
+import sec2 from "../assets/img.jpg/c7521301654a3b9cdae0af938a0622bf9597b6a9.png"
 
 
 function Counter({ target, duration, suffix = "" }) {
@@ -84,7 +86,7 @@ function AboutUs() {
         // Show thumbnail with play button
         <>
           <img
-            src="src\assets\img.jpg\c7521301654a3b9cdae0af938a0622bf9597b6a9.png"
+            src={sec2}
             alt="Thumbnail"
             className="w-100"
           />
@@ -99,10 +101,10 @@ function AboutUs() {
       <p>Introducing Aquatik Esports | Now Recruiting</p>
       <Row >
         <Col lg={6}  md={12}>
-          <h5 style={{color:"white", fontSize:"15px"}}> <img style={{width:"20px"}} src="src\assets\img.jpg\bx_bxs-check-circle.png" alt="" /> Lorem Ipsum is simply</h5>
+          <h5 style={{color:"white", fontSize:"15px"}}> <img style={{width:"20px"}} src={check1} alt="" /> Lorem Ipsum is simply</h5>
         </Col>
         <Col lg={6}  md={12}>
-            <h5 style={{color:"white", fontSize:"15px"}}> <img style={{width:"20px"}} src="src\assets\img.jpg\bx_bxs-check-circle.png" alt="" /> Lorem Ipsum is simply</h5>
+            <h5 style={{color:"white", fontSize:"15px"}}> <img style={{width:"20px"}} src= {check1}alt="" /> Lorem Ipsum is simply</h5>
         </Col>
       </Row>
       </div>

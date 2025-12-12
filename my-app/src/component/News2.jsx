@@ -3,7 +3,9 @@ import {Container} from 'react-bootstrap'
 import Nav from 'react-bootstrap/Nav';
 import { Col, Row } from "react-bootstrap";
 // import Banner from './Banner';
-
+import news1 from "../assets/img.jpg/52b04ecc24d6542bff26811155cfc69511e6d3c6.png";
+import news2 from "../assets/img.jpg/1b693ba6b8f24cac4dd28234eb17a5b6c1221011.png";
+import news3 from "../assets/img.jpg/e7895f7055e46df661aec4f8dd7cc0cd80bf431c.png";
 
 function News() {
   return (
@@ -19,7 +21,7 @@ function News() {
         <Row>
             <Col md={12} lg={4}>
                <div className='sec-7-image'>
-                <img width="100%"  src="src\assets\img.jpg\52b04ecc24d6542bff26811155cfc69511e6d3c6.png" alt="" />
+                <img width="100%"  src={news1} alt="" />
                 <div className='sec-7-image-containt'>
                     <h6>MAY 2, 2024  |  ADMIN </h6>
                     <p>A Guide to Latest Style and Techniques</p>
@@ -30,7 +32,7 @@ function News() {
 
             <Col md={12} lg={4}>
                <div className='sec-7-image'>
-                <img width="100%"  src="src\assets\img.jpg\1b693ba6b8f24cac4dd28234eb17a5b6c1221011.png" alt="" />
+                <img width="100%" src={news2} alt="" />
                 <div className='sec-7-image-containt'>
                     <h6>MAY 2, 2024  |  ADMIN </h6>
                     <p>A Guide to Latest Style and Techniques</p>
@@ -41,7 +43,7 @@ function News() {
 
             <Col md={12} lg={4}>
                <div className='sec-7-image'>
-                <img width="100%" src="src\assets\img.jpg\e7895f7055e46df661aec4f8dd7cc0cd80bf431c.png" alt="" />
+                <img width="100%"src={news3} alt="" />
                 <div className='sec-7-image-containt'>
                     <h6>MAY 2, 2024  |  ADMIN </h6>
                     <p>A Guide to Latest Style and Techniques</p>
